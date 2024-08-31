@@ -107,3 +107,14 @@ h3 {
     display: none;
 }
 
+.btn {
+    margin: 1rem;
+    width: 15rem;
+    font-size: medium;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    text-align: center;
+}
