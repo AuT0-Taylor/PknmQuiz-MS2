@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50%;
+  }
+
+
+    /*color changes for background*/
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #273991, #a1399a,
+    #b47948, #bf4444, #7b1064);
+    background-size: 400% 400%;
+    animation: bg 15s ease infinite;
+}
+
+body.wrong{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to left, #916327, #a03e26,
+    #a82720);
+    background-size: 400% 400%;
+    animation: bg 15s ease infinite;
+}
+
+body.correct{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to left, #ccec1c, #85b728,
+    #128e2b);
+    background-size: 400% 400%;
+    animation: bg 15s ease infinite;
+}
+ 
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
