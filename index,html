@@ -1,0 +1,14 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pknm quiz</title>
+    <link rel="stylesheet" href="assets/ccs/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+          <h1>Quick Quiz</h1>
+          <a class="btn" href="/Quiz.html">Play</a>
+</body>
