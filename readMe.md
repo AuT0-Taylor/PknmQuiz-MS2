@@ -133,6 +133,9 @@ All browers listed have been tested.
 
 ## Credit 
 
+quiz tutorial - https://youtu.be/riDzcEQbX6k?feature=shared
+
+
 ### Cover images and Insperations
 
 ### Code Content
