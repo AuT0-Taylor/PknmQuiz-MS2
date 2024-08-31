@@ -6,9 +6,8 @@
     font-size: 100%;
     margin: 0;
     padding: 0;
-    color: black;
+    color: tan;
 }
-
 
     /*color changes for background*/
 body{
@@ -24,24 +23,6 @@ body{
     background-size: 400% 400%;
     animation: bg 20s ease infinite;
 }
-
-body.wrong{
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(to left, #916327, #a03e26,
-    #a82720);
-    background-size: 400% 400%;
-    animation: bg 20s ease infinite;
-}
-
-body.correct{
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(to left, #ccec1c, #85b728,
-    #128e2b);
-    background-size: 400% 400%;
-    animation: bg 20s ease infinite;
-}
  
 @keyframes bg{
     0%{
@@ -54,3 +35,34 @@ body.correct{
         background-position: 0% 50%;
     }
 }
+
+/*Titles*/
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1 rem;
+}
+
+h1 {
+    font-size: 6rem;
+    color: black;
+    margin-bottom: 5rem;
+}
+
+h1>span {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
