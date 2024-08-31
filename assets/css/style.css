@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
 }
 
 
@@ -19,7 +22,7 @@ body{
     background: linear-gradient(to left, #273991, #a1399a,
     #b47948, #bf4444, #7b1064);
     background-size: 400% 400%;
-    animation: bg 15s ease infinite;
+    animation: bg 20s ease infinite;
 }
 
 body.wrong{
@@ -28,7 +31,7 @@ body.wrong{
     background: linear-gradient(to left, #916327, #a03e26,
     #a82720);
     background-size: 400% 400%;
-    animation: bg 15s ease infinite;
+    animation: bg 20s ease infinite;
 }
 
 body.correct{
@@ -37,7 +40,7 @@ body.correct{
     background: linear-gradient(to left, #ccec1c, #85b728,
     #128e2b);
     background-size: 400% 400%;
-    animation: bg 15s ease infinite;
+    animation: bg 20s ease infinite;
 }
  
 @keyframes bg{
