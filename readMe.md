@@ -4,6 +4,9 @@ For my Second portfolio project 2 I have chosen to do a pokemon type quiz, this 
 
 my target audience would be old and young as the game that I used as a foundation was very nostalgic to me back in the early 2000s
 
+"ALL CODE AND DOCUMENTATION ARE SUBJECT TO CHANGE FOR THE RESUBMISSION DATE"
+
+other repository data still needs to be accounted for
 
 ## Table of Contents
 
@@ -50,7 +53,7 @@ I will put it here once finalized
 so far I have chosen a breathing/wave rainbow transition background with a linear-gradient
 
 - ### Typography
-   
+  I have chosen a pixelated font to match the theme.
 
 ## Features
 
@@ -135,5 +138,6 @@ All browers listed have been tested.
 ### Code Content
 
 ## Last notes
+
 
 
