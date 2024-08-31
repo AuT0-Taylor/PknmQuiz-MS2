@@ -108,7 +108,7 @@ h3 {
     text-align: center;
 }
 
-.hide {
+.hidden {
     display: none;
 }
 
@@ -116,10 +116,10 @@ h3 {
 
 .choice-container {
     display: flex;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
     width: 100%;
-    font-size: 2rem;
-    border: black;
+    font-size: 1.8rem;
+    border:0.1rem solid black;
     background-color: white;
 }
 
@@ -132,7 +132,7 @@ h3 {
 
 .choice-text {
     padding: 1.5rem;
-    width: 90%;
+    width: 100%;
 }
 
 .choice-prefix {

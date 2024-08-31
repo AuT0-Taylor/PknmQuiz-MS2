@@ -8,8 +8,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
-const Correct_Point = 10;
-const Max_Question = 3;
+const CORRECT_BONUS = 5;
+const MAX_QUESTIONS = 3;
 
 /* questions */
 let questions = [

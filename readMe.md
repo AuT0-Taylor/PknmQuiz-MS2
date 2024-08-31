@@ -1,5 +1,8 @@
 # Pknm QUIZ Website made by Harri Taylor
 
+For my Second portfolio project 2 I have chosen to do a pokemon type quiz, this project is fairly new and i hope to finsih it more soon.
+
+my target audience would be old and young as the game that I used as a foundation was very nostalgic to me back in the early 2000s
 
 
 ## Table of Contents
@@ -16,29 +19,35 @@
 ## User Experience
 
   - ### A. New Vistor Goals
-    1.
-    2.
-    3.
+
+    1.As a new visitor I want to be able to interact with the quiz
+    2.As a new vistor I would like to be able to see if i get the anwser correct
+    3.as a new visitor I would like to be fun or nostalgic to play
 
   - ### B. Returning Vistor goals 
-    1.
-    2.
-    3.
+
+    1.I would like for the the quiz to have a score tracker
+    2.would be to add a leaderboard to be able to keep track of scores
 
   - ### C. Common user goals 
+
+
 
 
 ## Visual Designs
 
 - ### wireframes
+To be upload 
 
   - #### main page wireframe
 
-  - #### resources page wireframe
 
-  - #### contact page wireframe
 
 - ### Color Scheme
+
+I will put it here once finalized 
+
+so far I have chosen a breathing/wave rainbow transition background with a linear-gradient
 
 - ### Typography
    
@@ -69,6 +78,7 @@
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Tools and programs used in the process
 
