@@ -70,6 +70,11 @@ h3 {
     letter-spacing: 0.2rem;
 }
 
+@media only screen and (max-widthpx) {
+    h1 {
+        font-family: 2.5rem;
+    }
+}
 /*positioning styles*/
 .container {
     width: 100vw;
@@ -107,6 +112,7 @@ h3 {
     display: none;
 }
 
+/*btn styling*/
 .btn {
     margin: 1rem;
     width: 15rem;
@@ -118,3 +124,16 @@ h3 {
     background-color: white;
     text-align: center;
 }
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
