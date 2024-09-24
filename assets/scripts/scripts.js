@@ -14,7 +14,7 @@ const MAX_QUESTIONS = 3;
 /* questions */
 let questions = [
     {
-        question: "whats effective against water?",
+        question: "whats type is effective against water?",
         choice1: "grass",
         choice2: "fire",
         choice3: "steel",
