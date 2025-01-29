@@ -9,7 +9,7 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 const CORRECT_BONUS = 5;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 /* questions */
 let questions = [
@@ -37,6 +37,62 @@ let questions = [
         choice4: "poison",
         answer: 3,
     },
+    {
+        question: "Which Pokémon type is immune to Electric-type moves?",
+        choice1: "Ground",
+        choice2: "Rock",
+        choice3: "Steel",
+        choice4: "Water",
+        answer:1,
+    },
+    {
+        question: "What type combination has the least amount of weaknesses?",
+        choice1: "Electric/Steel",
+        choice2: "Ghost/Dark",
+        choice3: "Dragon/Fairy",
+        choice4: "Water/Ground",
+        answer: 2,
+    },
+    {
+        question: "Which of the following Pokémon types has never been the primary type of a Legendary Pokémon?",
+        choice1: "Normal",
+        choice2: "Bug",
+        choice3: "Poison",
+        choice4: "Fairy",
+        answer: 2,
+    },
+    {
+        question: "Which of these Pokémon types resists both Fire and Water moves?",
+        choice1: "Rock",
+        choice2: "Dragon",
+        choice3: "Ground",
+        choice4: "Steel",
+        answer: 2,
+    },
+    {
+        question: "What is the only Pokémon type that has no weaknesses when combined with the Electric type?",
+        choice1: "Fairy",
+        choice2: "Dragon",
+        choice3: "Normal",
+        choice4: "Ghost",
+        answer: 4,
+    },
+    {
+        question: "Which Pokémon type has the most resistances?",
+        choice1: "Steel",
+        choice2: "Fire",
+        choice3: "Water",
+        choice4: "Rock",
+        answer: 1,
+    },
+    {
+        question: "What is the only type that has not been paired with Fire as a dual type?",
+        choice1: "Bug",
+        choice2: "Fairy",
+        choice3: "Ghost",
+        choice4: "Ice",
+        answer: 2,
+    }
 ];
 
 /*Functions*/
