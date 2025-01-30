@@ -23,24 +23,28 @@ other repository data still needs to be accounted for
 
   - ### A. New Vistor Goals
 
-    1.As a new visitor I want to be able to interact with the quiz
-    2.As a new vistor I would like to be able to see if i get the anwser correct
-    3.as a new visitor I would like to be fun or nostalgic to play
+    1. As a new visitor I want to be able to interact with the quiz
+    2. As a new vistor I would like to be able to see if i get the anwser correct
+    3. as a new visitor I would like to be fun or nostalgic to play
 
   - ### B. Returning Vistor goals 
 
-    1.I would like for the the quiz to have a score tracker
-    2.would be to add a leaderboard to be able to keep track of scores
+    1. as a returning visitor i would like to have the the quiz to have option to play the quiz again
+    2. as a returning visitor i would like to have a leaderboard to be able to keep track of scores
 
   - ### C. Common user goals 
-
+    1. common users would need the ability to self-track high scores and other play scores
+    2. common users would need smooth replay ability from start to finish
 
 
 
 ## Visual Designs
 
+  ### idea foundation 
+  from the game pokemon dungeon i knew i wanted to re-create the personality test to bring back nostalga to old fans of pokemon, quiz queation will be based in type realate stratergies and hope a old arcade leaderboard to display scores
+
 - ### wireframes
-To be upload 
+  To be upload 
 
   - #### main page wireframe
 
@@ -48,31 +52,28 @@ To be upload
 
 - ### Color Scheme
 
-I will put it here once finalized 
+  I will put it here once finalized 
 
-so far I have chosen a breathing/wave rainbow transition background with a linear-gradient
+  so far I have chosen a breathing/wave rainbow transition background with a linear-gradient
 
 - ### Typography
-  I have chosen a pixelated font to match the theme.
+  I have chosen a pixelated font to match the theme
 
 ## Features
 
- - ### Feature - Nav bar
+ - ### starting menu
 
 
- - ### Feature - Home page
+ - ### end screen
 
 
- - ### Feature - Footer
+ - ### leaderboard
 
 
- - ### Feature 
+ - ### random question pull
 
 
- - ### Feature
-
-
- - ### Feature
+ - ### answer indicators
 
 
 ## Technologies
@@ -104,7 +105,6 @@ All browers listed have been tested.
 ### Html validations
 
 [NU html checker](https://validator.w3.org/nu/) - 
-
 
 ### CSS validations
 
