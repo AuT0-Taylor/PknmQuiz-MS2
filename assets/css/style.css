@@ -169,4 +169,16 @@ background-color:red ;
 
 /* hud styling */
 
-.
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 4.2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
