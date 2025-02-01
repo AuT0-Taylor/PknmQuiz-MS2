@@ -123,6 +123,8 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
+
+/* answer checker and indicator*/
 choices.forEach(choice => {
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
@@ -131,10 +133,16 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
-        const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        const classToApply = 
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         console.log(classToApply);
 
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+        selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
+        }, 1000 );
     } );
 } );
 
