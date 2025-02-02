@@ -187,5 +187,11 @@ background-color:red ;
     width: 20rem;
     height: 4rem;
     border:  0.4rem black;
-
+    margin-top: 1.4rem;
 }
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: #000000;
+    width: 0%;
+  }
