@@ -182,3 +182,10 @@ background-color:red ;
 .hud-main-text {
     text-align: center;
 }
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border:  0.4rem black;
+
+}
