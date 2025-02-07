@@ -75,6 +75,7 @@ h3 {
         font-family: 2.5rem;
     }
 }
+
 /*positioning styles*/
 .container {
     width: 100vw;
@@ -91,6 +92,15 @@ h3 {
     width: 100%;
 }
 
+.justify-center {
+    justify-content: center;
+  }
+  
+.flex-center {
+    justify-content: center;
+    align-items: center;
+ }
+
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -104,7 +114,7 @@ h3 {
     display: none;
 }
 
-/*Quiz answer boxs*/
+/* Quiz answer boxs / Game styling */
 
 .choice-container {
     display: flex;
@@ -194,4 +204,25 @@ background-color:red ;
     height: 3.4rem;
     background-color: #000000;
     width: 0%;
+  }
+
+/* FORMS */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 20rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  }
+  
+  input::placeholder {
+    color: #aaa;
   }
