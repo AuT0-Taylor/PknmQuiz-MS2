@@ -112,6 +112,7 @@ startGame = () => {
 getNewQuestion = () => {
     /*finished quiz goes to end html*/
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem("mostRecentScore", score)
         return window.location.assign('/end.html'); //end of quiz
     }
 
