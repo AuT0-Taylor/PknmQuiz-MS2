@@ -9,5 +9,32 @@
     <title>Pknm quiz</title>
 </head>
 <body>
-    <a class="btn" href="/Quiz.html">Play Again</a>
+    <div class="container">
+
+        <div id="end" class="flex-center flex-column">
+          <h1 id="finalScore"></h1>
+          <form>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="username"
+            />
+
+            <button
+              type="submit"
+              class="btn"
+              id="saveScoreBtn"
+              onclick="saveHighScore(event)"
+              disabled
+            >
+              Save
+            </button>
+          </form>
+          <a class="btn" href="./Quiz.html">Play Again</a>
+          <a class="btn" href="./index.html">Go Home</a>
+        </div>
+
+      </div>
+      <script src="./assets/scripts/end.js"></script>
 </body>

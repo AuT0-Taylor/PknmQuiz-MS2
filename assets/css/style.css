@@ -186,7 +186,7 @@ background-color:red ;
 #progressBar{
     width: 20rem;
     height: 4rem;
-    border:  0.4rem black;
+    border:  0.4rem solid black;
     margin-top: 1.4rem;
 }
 
